@@ -59,7 +59,7 @@ Figure -02 HALF Subtractor
 
 Developed by:D.Thejaswini
 RegisterNumber:212223110059
-
+```
 module HALF_ADDSUB(a,b,sum,carry,D,Bo);
 input a,b;
 output sum,carry,D,Bo; // Outputs sum and carry for half adder:Outputs difference D,Borrow Bo for half subtractor
@@ -70,7 +70,7 @@ not(abar,a);
 xor(D,a,b);
 and(Bo,abar,b);
 endmodule
-
+```
 */
 
 **RTL Schematic**
